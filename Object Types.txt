@@ -1,0 +1,53 @@
+OBJECT TYPES
+
+Array
+Date
+Regular Expression
+Map and WeakMap
+Set and WeakSet
+
+OBJECT EX.
+
+const lay = {
+	name: "Segun",
+	age: 33,
+	location: "Mpape",
+}
+console.log(lay.name);
+
+
+ARRAY /* structure of an array*/
+
+/* array with different data types*/
+
+const a1 = [1,2,3,4,5];
+
+
+const a2 = [1,2,null,4,'five'];
+const a3 = ['hello','world','array'];
+
+/* An array contained in another array*/
+
+const a4 = [
+
+	[1,2,3],
+	[4,5,6];
+];
+
+console.log(a2.length) /* get array lenght*/
+
+console.log(a1[0]); /* get the value of index 0 in array a1*/
+
+
+DATE
+
+const now = new Date(); /*specify current date and time */
+
+console.log(now); /* display the current date and time*/
+
+const dt = new Date(2015, 05, 05, 1, 0); /* to specify your own time*/
+
+
+
+
+
